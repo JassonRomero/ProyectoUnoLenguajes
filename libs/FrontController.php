@@ -10,7 +10,7 @@
                 $controllerName=$_GET['controlador'].'Controller';
             else 
     //            $controllerName='ItemsController';
-                $controllerName='IndexController';
+                $controllerName='PrincipalController';
             
             if(!empty($_GET['accion']))
                 $nombreAccion=$_GET['accion'];
